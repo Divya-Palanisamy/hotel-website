@@ -1,0 +1,220 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    overflow: auto;
+}
+.bold{
+    color: rgb(236, 109, 17);
+}
+.block{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    background: rgb(156, 75, 16);
+    padding: 5px;
+}
+.btn:hover{
+    background: rgb(194, 95, 25);
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+p{
+    margin: 10px 0;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+#navbar .logo{
+    padding-top: 20px;
+    padding-left: 5px;
+    float: left;
+}
+#navbar{
+    background-color: rgb(216, 132, 72);
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#navbar ul{
+    list-style-type: none;
+    float: right;
+}
+#navbar ul li{
+    display: inline;
+    float: left;
+    padding-top: 25px;
+}
+#navbar li a{
+   
+    padding: 20px;
+    color: white;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    background:rgb(194, 95, 25);
+}
+#showcase{
+    background: url('../images/home-img.jpg') no-repeat center center/cover;
+    height: 600px;
+    width: 100%;    
+}
+
+#showcase .showcase-content{
+    margin-top: 200px;
+    background: #3b3737;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+#showcase .showcase-content h1{
+    font-size: 30px;
+}
+#showcase .showcase-content p{
+    padding-bottom: 10px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content h4{
+    padding-bottom: 10px;
+}
+
+#history p,
+#history h1{
+    color: rgb(0, 0, 0);
+}
+
+#why-us{
+    background: rgb(207, 143, 98);
+}
+#why-us .inner-why{
+    width: 300px;
+    display: inline-block;
+}
+.picture{
+    width: 50%;
+    height: 180px;
+    margin: 10px 80px;
+}
+.gallery .picture{
+    width: 70%;
+    height: 170px;
+    margin: 10px 80px;
+    padding-bottom: 30px;
+}
+#why-us .sep h3{
+    text-align: center;
+}
+.gallery{
+    width: 300px;
+    display: inline-block;
+}
+.gallery a:hover{
+    opacity: 0.7;
+}
+#service{
+    padding-top: 100px;
+}
+#service img{
+    opacity: 0.8;
+}
+#service img:hover{
+   opacity: 1;
+}
+#form{
+    font-weight: bold;
+    font-size: medium;
+}
+#fill{
+    padding: 3px; 
+    width: 100%;
+}
+.label{
+    padding-bottom: 10px
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    background: rgb(236, 109, 17);
+    color: white;
+    border: none;
+    padding: 10px 15px; 
+}
+#contact-form{
+    padding-bottom: 175px;
+}
+
+#spacing{
+    padding-top: 69px;
+    padding-bottom: 30px;
+}
+.head{
+    font-style: italic;
+    font-family: cursive;
+}
+.left-menu{
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+.right-menu{
+    float: right;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#dish, #price{
+    font-size: medium;
+    font-family: cursive;
+    font-style: italic;
+}
+.dish-head{
+    font-size: x-large;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bolder;
+}
+#dish{
+    float: left;
+}
+#price{
+    float: right;
+}
+#call-us{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main-footer{
+    background:rgb(216, 132, 72);
+    width: 100%;
+    height: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#main-footer p{
+    text-align: center;
+}
+#menu-footer{
+    background: rgb(216, 132, 72);
+    width: 100%;
+    height: 920px;
+}
